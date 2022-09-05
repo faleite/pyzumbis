@@ -1,8 +1,5 @@
 ### Sobre Fernando Massanori
-[link](about.me/fmasanori)
+[about.me/fmasanori](https://about.me/fmasanori))
 
 ### Playlists
-[link](bit.ly/PPZPython)
-
-### Entrevista na Rádio FM
-[link](bit.ly/EntrevistaFM)
+[bit.ly/PPZPython](https://www.youtube.com/channel/UCripRddD4BnaMcU833ExuwA/playlists)
