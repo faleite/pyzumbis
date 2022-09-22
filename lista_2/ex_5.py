@@ -7,14 +7,14 @@ n3 = float(input('Terceiro número: '))
 # fórmula 1
 if n1 > n2 and n1 > n3:
     print(f'Maior número: {n1}')
-elif n2 > n1 and n2 > n3:
+elif n2 > n3:
     print(f'Maior número: {n2}')
 else:
     print(f'Maior número: {n3}')
 
 if n1 < n2 and n1 < n3:
     print(f'Menor número: {n1}')
-elif n2 < n1 and n2 < n3:
+elif n2 < n3:
     print(f'Menor número: {n2}')
 else:
     print(f'Menor número: {n3}')

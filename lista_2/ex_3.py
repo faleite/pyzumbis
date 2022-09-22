@@ -8,14 +8,11 @@ multa que João deverá pagar. Caso contrário mostrar tais variáveis com o con
 
 peso = float(input('Peso: '))
 
-excesso = peso - 50
-
-multa = excesso * 4
-
-if peso - 50 == 0:
-    print('Excesso: ZERO')
-    print('Multa: ZERO')
+if peso > 50:
+    excesso = peso - 50
+    multa = excesso * 4
 else:
-    print(f'Excesso: {excesso:.2f} kg')
-    print(f'Multa: R$ {multa:.2f}')
+    multa = excesso = 0
 
+print(f'Excesso: {excesso:.2f} kg')
+print(f'Multa: R$ {multa:.2f}')

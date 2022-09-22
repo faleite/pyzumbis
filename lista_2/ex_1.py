@@ -14,9 +14,5 @@ if (lb - lc) < la and la < (lb + lc):
         print('Isóceles')
     elif la != lb and lb != lc:
         print('Escaleno')
-elif (la - lc) < lb and lb < (la + lc):
-    print('É um triângulo')
-elif (la - lb) < lc and lc < (la + lb):
-    print('É um triângulo')
 else:
     print('Não é um triângulo')

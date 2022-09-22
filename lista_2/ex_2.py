@@ -20,5 +20,3 @@ else:
             #  print('Não é um ano bissexto')
         #  else:
             #  print('É um ano bissexto')
-
-
