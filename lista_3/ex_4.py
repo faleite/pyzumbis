@@ -10,8 +10,15 @@ n = int(input('Número inteiro: '))
 a, b = 1, 1
 #  seq = [a, b]
 
-for i in range(n-2):
-    a, b = b, a + b
+#  for i in range(n-2):
+    #  a, b = b, a + b
     #  seq.append(b)
-print(f'F{n} = {b}')
+#  print(f'F{n} = {b}')
 #  print(seq)
+
+# com while:
+k = 1
+while k <= n-2:
+    a, b = b, a + b
+    k += 1
+print(f'F{n} = {b}')

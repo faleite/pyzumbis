@@ -10,11 +10,7 @@ o algoritmo de Euclides.
 
 a = int(input('Primeiro número: '))
 b = int(input('Segundo número: '))
-mdc = 0
 
 while a % b != 0:
     a, b = b, a % b
-    if a % b > 0:
-        mdc = a % b
-
-print(mdc)
+print(f'mdc = {b}')
