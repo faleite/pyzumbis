@@ -2,10 +2,11 @@
 
 # Interação com listas
 
-#3 Exemplo
+#3 Exemplo com apenas um laço (while)
 notas = []
 k = 0
 soma = 0
+
 while k <= 3:
     notas.append(float(input('Nota: ')))
     soma += notas[k]
