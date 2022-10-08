@@ -1,4 +1,4 @@
-""" REPETIÇÃO
+""" REPETIÇÃO COM O 'WHILE'
 - while dentro de while
 """
 # Code que mostra 10 tabuadas (1 ao 10)

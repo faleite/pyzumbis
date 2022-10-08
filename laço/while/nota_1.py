@@ -1,4 +1,4 @@
-""" REPETIÇÃO
+""" REPETIÇÃO COM O 'WHILE'
 - contadores incremento constante
 - acumuladores variável
 """
