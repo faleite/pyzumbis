@@ -4,7 +4,7 @@
 
 """
 
-#1 Exemplo
+# 1 Exemplo
 # A Fatec fica dentro de um parque Tecnológico
 
 # jose global == variavel global
