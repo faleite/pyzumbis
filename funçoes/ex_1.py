@@ -5,12 +5,12 @@
 - Existem funções que não devolvem nada. Por padrão em Python devolve "None"
 """
 
-#1 Exemplo
+# 1 Exemplo
 # Esta função retorna se o parâmetro x é par
 # Essas linhas não serão executadas imediatamente
 # É preciso chamar a função para executá-la
 def épar(x):
-    return x%2 == 0
+    return x % 2 == 0
 
 # Podemos chamar a função com print
 print(épar(13))
