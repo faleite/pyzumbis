@@ -4,7 +4,7 @@ Imprima as três listas. """
 
 import random
 
-sort_20_int = random.sample(range(100), 20)
+sort_20_int = random.sample(range(1, 100), 20)
 
 PAR = []
 IMPAR = []
