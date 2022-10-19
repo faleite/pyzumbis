@@ -2,18 +2,29 @@
 Armazene os números pares na lista PAR e os números ímpares na lista IMPAR.
 Imprima as três listas. """
 
-import random
+from random import sample
 
-sort_20_int = random.sample(range(1, 100), 20)
+vetor = sample(range(100), 20)
 
 PAR = []
 IMPAR = []
 
-for index in sort_20_int:
+# Meu código
+for index in vetor:
     if index % 2 == 0:
         PAR.append(index)
     else:
         IMPAR.append(index)
 
+print('Vetor:', vetor)
 print('PAR:', PAR)
 print('IMPAR:', IMPAR)
+
+
+# Com list ccomprehension
+par = [x for x in vetor if x % 2 == 0]
+ímpar = [x for x in vetor if x % 2 == 1]
+
+print('Vetor', vetor)
+print('Pares', par)
+print('Ímpares', ímpar)
