@@ -11,3 +11,11 @@ para i = 1 até 9
 Resposta: 48
 
 """
+oi = []
+
+for i in range(1, 10):
+    if i != 3:
+        for j in range(1, 7):
+            oi.append('oi')
+
+print(len(oi))
