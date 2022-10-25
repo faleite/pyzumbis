@@ -8,3 +8,12 @@ números sortudos existem entre 18644 e 33087, incluindo os extremos?
 Resposta: 7995
 
 """
+
+lista = list(range(18644, 33088))
+numeros = []
+
+for numero in lista:
+    if '2' in str(numero) and '7' not in str(numero):
+        numeros.append(numero)
+
+print('Resposta:', len(numeros))
